@@ -1,0 +1,91 @@
+.container {
+  width: 300px;
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+  height: 480px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.container button {
+  width: 240px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #328f48;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #328f48;
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.container p button {
+  background: none;
+  border: none;
+  color: #328f48;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.container p button:hover {
+  text-decoration: underline;
+}
+
+.container p button:focus {
+  outline: none;
+}
+
+.container p button:active {
+  color: #328f48;
+}
+
+.container p p {
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+.pass {
+  margin-top: 2px !important;
+  padding-top: 4px !important;
+}
+
+.reset {
+  height: 250px;
+  margin-top: 150px !important;
+}
+
+.reset p {
+  color: red;
+}

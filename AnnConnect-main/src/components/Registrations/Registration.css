@@ -1,0 +1,93 @@
+h4 {
+  text-align: center;
+}
+
+.registration {
+  margin-top: 80px !important;
+  margin-bottom: 50px !important;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.registration h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.registration form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration input[type="text"],
+.registration input[type="tel"],
+.registration input[type="email"],
+.registration textarea,
+.registration select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.registration textarea {
+  resize: vertical;
+}
+
+.registration input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.registration .image-upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.registration .image-upload p {
+  margin-left: 10px;
+}
+
+.registration p {
+  color: red;
+  text-align: center;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #328f48;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.submit-button button:hover {
+  background-color: #287b3d;
+}
